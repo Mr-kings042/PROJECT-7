@@ -1,0 +1,233 @@
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    background-color:  hsl(0, 0%, 98%);
+    scroll-behavior: smooth;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    margin: 0;
+     
+} 
+ .heading{
+    text-align: center;
+    margin-top: 1rem;
+    position: absolute;
+    top: 0;
+}
+.heading h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: -2rem;
+    color:  hsl(229, 6%, 66%);
+}
+.heading h1{
+    
+    margin-top: -1rem;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.heading p{
+   padding: 0;
+   margin-top: -1rem;
+   color:  hsl(229, 6%, 66%);
+}
+.div-one{
+    position: absolute;
+    left: 20px;
+    top: 60%;
+    border-top: 3px solid hsl(180, 62%, 55%);
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 26%;
+    height: 100px;
+    transition: all 0.3s ease;
+}
+.div-one h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:  hsl(229, 6%, 66%);
+    padding-top: 0;
+    margin-top: 0;
+}
+.div-one p{
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    color:  hsl(229, 6%, 66%);
+    font-size: 10px;
+}
+.div-one:hover{
+    transform: scale(1.2);
+}
+.inner-div{
+    position: relative;
+}
+.inner-div .img img{
+   position: absolute;
+  right: 0;
+   width: 30px;
+
+}
+.div-two{
+    
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    padding-top: 0;
+    width: 26%;
+    height: 130px;
+    transition: all 0.3s ease;
+}
+.div-two:hover{
+    transform: scale(1.2);
+}
+.div-two h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:  hsl(229, 6%, 66%);
+    padding-top: 3px;
+    margin-top: 0;
+}
+.div-two p{
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    color:  hsl(229, 6%, 66%);
+    font-size: 10px;
+}
+.div-three{
+   
+    position: absolute;
+    left: 35%;
+    top: 75%;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    padding-top: 0;
+    width: 26%;
+    height: 110px;
+    transition: all 0.3s ease;
+}
+.div-three:hover{
+    transform: scale(1.2);
+}
+.div-three h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:  hsl(229, 6%, 66%);
+    padding-top: 3px;
+    margin-top: 0;
+}
+.div-three p{
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    color:  hsl(229, 6%, 66%);
+    font-size: 10px;
+}
+.div-four{
+   
+    position: absolute;
+    left: 68%;
+    top: 60%;
+    border-top: 3px solid hsl(212, 86%, 64%)
+    ;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    padding-top: 0;
+    width: 26%;
+    height: 110px;
+    transition: all 0.3s ease;
+}
+.div-four:hover{
+    transform: scale(1.2);
+}
+.div-four h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:  hsl(229, 6%, 66%);
+    padding-top: 3px;
+    margin-top: 0;
+}
+.div-four p{
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    color:  hsl(229, 6%, 66%);
+    font-size: 10px;
+}
+@media (max-width:786px) {
+  
+   .div-one{
+    top: 42%;
+    left: 30%;
+    height: 25%;
+    padding-top: 2px;
+   }
+   .div-one h2{
+    line-break: auto;
+    word-break: break-all;
+   }
+   .div-two{
+    top: 75%;
+    left: 30%;
+    height: 32%;
+   }
+   .div-two .inner-div .img img{
+    top: 117%;
+   }
+   .div-three{
+    top: 115%;
+    left: 30%;
+    height: 30%;
+   }
+   .div-three .inner-div .img img{
+    top: 142%;
+   }
+   .div-four{
+    top: 157%;
+    left: 30%;
+    height: 30%;
+   }
+   .div-four h2{
+    line-break: auto;
+    word-break: break-all;
+   }
+   .div-four .inner-div .img img{
+    top: 140%;
+   }
+   .attribution{
+    position: absolute;
+   top: 200%;
+   
+   }
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+ }
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
